@@ -1,93 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
-      respostas: ["let myVar = 10;", "variable myVar = 10;", "const myVar = 10;"],
-      correta: 2,
-    },
-    {
-      pergunta:
-        "Qual método é utilizado para imprimir algo no console em JavaScript?",
+  {
+      pergunta: "Quem detém o recorde de maior número de campeonatos mundiais de Fórmula 1?",
       respostas: [
-        "log.console('Hello World');",
-        "print('Hello World');",
-        "console.log('Hello World');",
+          "Ayrton Senna",
+          "Michael Schumacher",
+          "Lewis Hamilton",
       ],
-      correta: 2,
-    },
-    {
-      pergunta: "O que é um array em JavaScript?",
+      correta: 2
+  },
+  {
+      pergunta: "Qual equipe detém o recorde de mais títulos de construtores na Fórmula 1?",
       respostas: [
-        "Um tipo de dado que representa um único valor.",
-        "Um objeto que armazena apenas números.",
-        "Uma estrutura de dados que armazena uma coleção ordenada de valores.",
+          "Ferrari",
+          "Mercedes",
+          "McLaren",
       ],
-      correta: 2,
-    },
-    {
-      pergunta: "Como se realiza uma iteração (loop) em JavaScript?",
+      correta: 0
+  },
+  {
+      pergunta: "Qual piloto foi o mais jovem campeão mundial de Fórmula 1?",
       respostas: [
-        "foreach (let i in array) { }",
-        "for (let i = 0; i < array.length; i++) { }",
-        "loop(array, function(i) { })",
+          "Sebastian Vettel",
+          "Fernando Alonso",
+          "Lewis Hamilton",
       ],
-      correta: 1,
-    },
-    {
-      pergunta:
-        "Qual palavra-chave é utilizada para criar uma função em JavaScript?",
+      correta: 2
+  },
+  {
+      pergunta: "Qual é o circuito mais longo do calendário da Fórmula 1 atualmente?",
       respostas: [
-        "function myFunction() { }",
-        "create function myFunction() { }",
-        "def myFunction() { }",
+          "Spa-Francorchamps",
+          "Suzuka",
+          "Circuito da Catalunha",
       ],
-      correta: 0,
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
+      correta: 0
+  },
+  {
+      pergunta: "Quantos títulos mundiais Juan Manuel Fangio conquistou na Fórmula 1?",
       respostas: [
-        "Um tipo de dado para armazenar strings.",
-        "Um modelo de objetos para representar a estrutura de uma página HTML.",
-        "Uma biblioteca popular de JavaScript.",
+          "3",
+          "5",
+          "7",
       ],
-      correta: 1,
-    },
-    {
-      pergunta: "Qual é a diferença entre '==' e '===' em JavaScript?",
+      correta: 2
+  },
+  {
+      pergunta: "Qual piloto é conhecido como 'O Professor' na Fórmula 1?",
       respostas: [
-        "Ambos comparam valores e tipos de dados, mas '===' também verifica a igualdade estrita.",
-        "'===' compara apenas os valores, enquanto '==' compara valores e tipos de dados.",
-        "'==' compara apenas os valores, enquanto '===' compara valores e tipos de dados.",
+          "Alain Prost",
+          "Niki Lauda",
+          "Jackie Stewart",
       ],
-      correta: 0,
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
+      correta: 0
+  },
+  {
+      pergunta: "Qual é a equipe mais antiga da Fórmula 1 ainda em atividade?",
       respostas: [
-        "Uma biblioteca para manipulação de objetos.",
-        "Um formato de dados que representa objetos como strings.",
-        "Um tipo de dado para armazenar números inteiros.",
+          "Ferrari",
+          "Mercedes",
+          "Williams",
       ],
-      correta: 1,
-    },
-    {
-      pergunta: "Como se faz uma requisição HTTP assíncrona em JavaScript?",
+      correta: 2
+  },
+  {
+      pergunta: "Qual piloto é conhecido como 'The Flying Finn'?",
       respostas: [
-        "http.request('GET', 'url', callback);",
-        "fetch('url').then(response => response.json());",
-        "asyncRequest('url', 'GET', callback);",
+          "Kimi Räikkönen",
+          "Valtteri Bottas",
+          "Mika Häkkinen",
       ],
-      correta: 1,
-    },
-    {
-      pergunta: "Qual é a finalidade do operador 'typeof' em JavaScript?",
+      correta: 0
+  },
+  {
+      pergunta: "Quem é o piloto brasileiro com mais vitórias na Fórmula 1?",
       respostas: [
-        "Comparar o tipo de dois valores.",
-        "Verificar se uma variável foi definida.",
-        "Retornar uma string indicando o tipo de um operando.",
+          "Ayrton Senna",
+          "Felipe Massa",
+          "Emerson Fittipaldi",
       ],
-      correta: 2,
-    },
-  ];
+      correta: 1
+  },
+  {
+      pergunta: "Qual é a equipe de Fórmula 1 com mais pole positions na história?",
+      respostas: [
+          "Ferrari",
+          "McLaren",
+          "Williams",
+      ],
+      correta: 1
+  },
+];
+
   
   const quiz = document.querySelector("#quiz");
   const template = document.querySelector("template");
